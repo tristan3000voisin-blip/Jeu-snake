@@ -11,7 +11,7 @@ pommes_mangees = 0
 murs_fatals = False
 controles_inverses = False
 
-#on associe les images aux objects ( il se pourrait que ça ne marche pas sur tous les ordinateurs car ça marche seulement si les images sont dans le meme fichier que le programme)
+#on associe les images aux objects 
 im_teteN = Image.open("teteN.png") 
 teteN = ImageTk.PhotoImage(im_teteN) 
 im_teteS = Image.open("teteS.png") 
